@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 2019_09_05_192035) do
   end
 
   create_table "items", force: :cascade do |t|
-    t.integer "item_category_id"
+    t.integer "item_categorizer_id"
     t.string "name"
     t.string "rate"
     t.datetime "created_at", precision: 6, null: false
